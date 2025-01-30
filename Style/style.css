@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('/assets/fonts/Inter-VariableFont.ttf');
+}
+body {
+    background-color: #1f1f1f;
+    font-family: 'MyCustomFont', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    width: 100vw;
+}
+main{
+    width:300px;
+    background-color: #303030;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+header h1 {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+header h2 {
+    color: greenyellow;
+    font-size: 16px;
+}
+header p {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.link-list {
+    width: 270px;
+    height: 250px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-list a {
+    width: 270px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 8px;
+    background-color: #585858; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link-list a:hover {
+    background-color: greenyellow;
+    color: #585858;
+}
+.attribution {
+    color: white;
+    margin-top: 10px;
+}
